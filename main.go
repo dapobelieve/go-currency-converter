@@ -1,10 +1,12 @@
 package main
 
 import (
-	"github.com/altschool/class8/src/dapobelieve"
+	"fmt"
+	"github.com/Christomesh/go-currency-converter/src/Christomesh"
 )
 
 func main() {
 
-	currency := dapobelieve.Naira(2000)
+	currency := Christomesh.NGN(9000000)
+	fmt.Println(currency.BTC())
 }
