@@ -6,12 +6,12 @@ type Ruble float32    // Russian Rubble
 type Ringgit float32  // Malaysian Ringit
 type Shilling float32 // Uganda 
 type Franc float32    // Rwandan Franc
-type Sol float32 			// Peruvian Nuevo Sol
-type Escudo float32		// Cape Verde Escudo
-type Tdollar float32 	// Trinidad/Tobago Dollar
-type Srupee float32		// Seychelles Rupee
+type Sol float32      // Peruvian Nuevo Sol
+type Escudo float32   // Cape Verde Escudo
+type Tdollar float32  // Trinidad/Tobago Dollar
+type Srupee float32   // Seychelles Rupee
 type Fdollar float32  // Fiji Dollar
-type Ldollar float32	// Liberian Dollar
+type Ldollar float32  // Liberian Dollar
 
 
 func (n Naira) Ruble() Ruble {
