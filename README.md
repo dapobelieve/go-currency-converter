@@ -1,2 +1,2 @@
 # go-currency-converter
-##An opensource currency converter
+## An opensource CLI currency converter
