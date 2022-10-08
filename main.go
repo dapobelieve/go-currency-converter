@@ -1,10 +1,18 @@
 package main
 
 import (
-	"github.com/altschool/class8/src/dapobelieve"
+	"fmt"
+	"github.com/hussain4real/go-currency-converter/src/dapobelieve"
+	"github.com/hussain4real/go-currency-converter/src/hussain4real"
 )
 
 func main() {
 
-	currency := dapobelieve.Naira(2000)
+	currency := dapobelieve.Dollar(2000)
+	fmt.Println(currency)
+
+	//testing the conversion with Euro
+	aminuConversion := hussain4real.Euros(2)
+	fmt.Println(aminuConversion)
+
 }
