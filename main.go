@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/altschool/class8/src/dapobelieve"
+	"./src/kingsbloc"
 )
 
 func main() {
-
-	currency := dapobelieve.Naira(2000)
+	// base Currency is Naira
+	currency := kingsbloc.Naira(2000)
+	currency.Euro()
 }
