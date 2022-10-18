@@ -1,5 +1,5 @@
 
-module github.com/Christomesh/go-currency-converter
+module github.com/kelechi-otu/go-currency-converter
 
 
 
