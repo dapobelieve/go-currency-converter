@@ -1,16 +1,6 @@
 package tunedev
 
-type Naira float32           // Nigerian Currency
-type CongoleseFranc float32  // Congolese Franc
-type EthopianBirr float32    // Ethopian Birr
-type Rand float32            // SouthAfrican Rand
-type EgyptianPound float32   // Egyptian Pound
-type AlgerianDinar float32   // Algerian Dinar
-type WestAfricaFranc float32 // West Africa Franc
-type BotswanaPula float32    // Botswana Pula
-type GuineaFranc float32     // Guinea Franc
-type Escudo float32          // Cape Verde Escudo
-type Cedi float32            // Ghanaian New Cedi
+type Naira float32 // Nigerian Currency
 
 func (n Naira) toCongoleseFranc() CongoleseFranc {
 	return CongoleseFranc(n * 4.60525)
