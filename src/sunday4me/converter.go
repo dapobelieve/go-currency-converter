@@ -80,3 +80,5 @@ func (n Naira) CanadianDollar() CanadianDollar {
 //func (n Naira) Florin() Florin {
 //return Florin(n * 0.00414)
 // }
+
+// trying to fix the code 
