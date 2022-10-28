@@ -1,0 +1,60 @@
+package teedaps
+
+type (
+        Naira float32 // Nigerian Naira
+        Yen   float32 // Japanese  Yen
+        Dirham float32 // UAE Dirham
+        Franc float32 // Swiss Franc
+        Pounds float32 // British Pounds
+        Ringgit float32 // Malayasian Ringgit
+         Dram   float32 // Armenian Dram
+         Real   float32 // Brazilian Real
+         Lari   float32 // Geoargian Lari
+         Peso   float32 // Argentine Peso
+         Rand   float32 // South African Rand
+         
+)
+
+func (n Naira)  Yen () Yen {
+        return  Yen (n * 0.33368)
+}
+
+func (n Naira) Dirham () Dirham {
+        return Dirham (n * 0.00839)
+ }
+ 
+ func (n Naira) Franc () Franc {
+         return Franc (n * 0.00226)
+ }
+ 
+ func (n Naira) Pounds () Pounds {
+         return Pounds (n * 0.00197)
+ }
+ 
+ func (n Naira) Ringgit () Ringgit {
+         return Ringgit (n * 0.01076)
+ }
+ 
+ func (n Naira) Dram () Dram {
+         return Dram (n * 0.8643)
+ }
+ 
+ func (n Naira) Real () Real {
+         return Real (n * 0.01222)
+ }
+ 
+ func (n Naira) Lari () Lari {
+         return Lari (n * 0.00628)
+ }
+ 
+ func (n Naira) peso () Peso {
+         return Peso (n * 0.35522)
+ }
+ 
+func (n Naira) Rand () Rand {
+        return Rand (n * 0.04103)
+ }
+
+
+ 
+ 
