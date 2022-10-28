@@ -11,7 +11,7 @@ func main() {
 	currency := dapobelieve.Dollar(2000)
 	fmt.Println(currency)
 
-	var sampleNaira kelechiotu.Naira = 500
-	convertedCurrency := sampleNaira.GhanaianNewCedis()
-    fmt.Println(convertedCurrency)
+	var naira kelechiotu.Naira = 500
+	convertedCurrency := naira.GhanaianNewCedis()
+    fmt.Printf("%v naira is equivalent to %v Ghanaian New Cedis.", naira, convertedCurrency)
 }
