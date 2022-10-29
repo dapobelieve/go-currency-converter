@@ -1,4 +1,4 @@
-package Christomesh
+package christomesh
 
 type NGN float64
 

@@ -6,7 +6,7 @@ type currency float32
 // Declare the currency and match their types to the currency type
 type Naira currency
 
-type Dollar currency          // US Dollar
+type USD currency             // US Dollar
 type SwedishKrona currency    // Swedish Krona
 type NorwegianKroner currency // Norwegian Krone
 type CanadianDollar currency  // Canadian Dollar
@@ -19,8 +19,8 @@ type BarbadosDollar currency  // Barbados Dollar
 
 //  receiver functions that converts a naira to another currency
 
-func (n Naira) Dollar() Dollar {
-	return Dollar(n * 0.00228)
+func (n Naira) Dollar() USD {
+	return USD(n * 0.00228)
 }
 
 func (n Naira) SwedishKrona() SwedishKrona {
