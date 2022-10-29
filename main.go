@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/hussain4real/go-currency-converter/src/dapobelieve"
+
+	"github.com/go-currency-converter/src/unkletayo"
+)
 
 func main() {
 
-
-	currency := dapobelieve.Dollar(2000)
+	currency := unkletayo.USD(1000)
 	fmt.Println(currency)
 
 }
