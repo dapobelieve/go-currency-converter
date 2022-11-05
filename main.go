@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/hussain4real/go-currency-converter/src/dapobelieve"
+	"github.com/aosimeon/go-currency-converter/src/aosimeon"
+)
 
 func main() {
+	// Convert naira to CAD
+	currency := aosimeon.ToCAD(2000)
 
-
-	currency := dapobelieve.Dollar(2000)
+	// Print result
 	fmt.Println(currency)
-
 }
